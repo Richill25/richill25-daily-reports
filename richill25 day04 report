@@ -1,0 +1,82 @@
+man git
+  299  git --help
+  300  git help <clome>
+  301  git help clome
+  302  git help clone
+  303  git config --global user.name "richill25"
+  304  git config --global user.email "richill.nyantakyiwaa@aims.ac.rw"
+  305  cd Desktop
+  306  cd Home
+  307  ls
+  308  mkdir simplestats
+  309  cd simplestats
+  310  git init
+  311  ls -A .git
+  312  cd .git
+  313  ls -A
+  314  nano description
+  315  tree
+  316  git status
+  317  git status On branch master
+  318  git branch
+  319  git status
+  320  git branch main
+  321  git branch master
+  322  git config --global init.defaultBranch main
+  323  git status
+  324  cd ..
+  325  git status
+  326  touch README.md
+  327  git status
+  328  git add README.md
+  329  git status
+  330  git commit -am
+  331  git commit -am "This is the first commit. It adds a readme file."
+  332  git status
+  333  git diff
+  334  git diff --stat
+  335  nano README.md 
+  336  git diff
+  337  git diff --stat
+  338  git diff HEAD -- [path]
+  339  git diff HEAD -- 
+  340  git diff --cached
+  341  git status
+  342  git log
+  343  touch temp_notes
+  344  nano temp_notes
+  345  git status
+  346  git reset temp_notes
+  347  status
+  348  git ststus
+  349  git status
+  350  git add temp_notes
+  351  git status
+  352  git reset temp_notes
+  353  git status
+  354  nano README.md
+  355  git status
+  356  checkout --READ.md
+  357  git checkout --READ.md
+  358  git checkout --README.md
+  359  git checkout -- README.md
+  360  git status
+  361  nano READYOU.md
+  362  git add READYOU.md
+  363  git status
+  364  git rm READYOU.md
+  365  git rm -f  READYOU.md
+  366  git status
+  367  rm README.md
+  368  git status
+  369  git checkout -- README.md
+  370  git status
+  371  git log
+  372  git diff
+  373  git log --pretty=oneline
+  374  git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+  375  nano temp_note2
+  376  git rm temp_note2
+  377  git status
+  378  nano greetings
+  379  git add greetings
